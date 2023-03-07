@@ -1,0 +1,31 @@
+
+
+ALL VCC are 5V.
+
+- NodeMcu -------------> MCP 2515
+
+    D8  ------------->  CS
+    D7  ------------->  SI	
+    D6  ------------->  SO
+    D5  ------------->  SCK
+    D4  ------------->  INT      **************  Remove it when flashing on NodeMCU then back it again after flash	
+
+- MCP 2515
+* Terminated with jumber
+* twisted jumbers for High & Low  which plugged in the pins 
+
+
+- BLUEBILL -------------> MCP2551
+
+    A11  -------------> RX  ( Pin 4 )
+    A12  -------------> TX  (	Pin 3 )
+	
+
+- MCP2551
+* twisted jumbers for High (Pin 5 ) & Low ( Pin 6 ) 
+
+
+- BLUEBILL -------------> SWITCH
+  
+    PC13   -------------> any one ( right pins connect to the Mcu)
+
